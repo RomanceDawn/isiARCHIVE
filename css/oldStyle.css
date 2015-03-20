@@ -1,0 +1,221 @@
+/* 
+    Created on : 18 déc. 2014, 00:00:26
+    Author     : Amine
+*/
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+html{
+    font-family: sans-serif;
+
+}
+
+body{
+   // background-image: url(../images/wall.jpg);
+    background-attachment:fixed; 
+    background-position: center;
+
+}
+
+
+#corp {
+    overflow: auto;
+    background:rgb(241,241,241);
+    background: rgba(214,214,214,0.70);
+
+}
+
+section{
+    position:relative;
+}
+
+
+
+#mainMenu {
+    background: rgb(255,255,255); /* Old browsers */
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    font-size: .9em;
+}
+
+
+
+#mainMenu li{
+    list-style-type: none;
+    border-width: 0;
+    border-right-width:  1px;
+    border-style: solid;
+    border-color: lightgray;
+}
+#mainMenu li img{
+    vertical-align: middle;
+}
+
+#mainMenu li.flotteDroite {
+    float: right;
+    border-width: 0;
+    border-left-width:  1px;
+    border-style: solid;
+    border-color: lightgray;
+
+}
+
+#mainMenu a {
+    color:#1570a6;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    background: none;
+}
+
+html, body {
+    height: 100%;
+}
+#actions {
+    margin: 2em 0;
+}
+
+
+/* Mimic table appearance */
+div.table {
+    display: table;
+}
+div.table .file-row {
+    display: table-row;
+}
+div.table .file-row > div {
+    display: table-cell;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    padding: 8px;
+}
+div.table .file-row:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+
+
+/* The total progress gets shown by event listeners */
+#total-progress {
+    opacity: 0;
+    transition: opacity 0.3s linear;
+}
+
+/* Hide the progress bar when finished */
+#previews .file-row.dz-success .progress {
+    opacity: 0;
+    transition: opacity 0.3s linear;
+}
+
+/* Hide the delete button initially */
+#previews .file-row .delete {
+    display: none;
+}
+
+/* Hide the start and cancel buttons and show the delete button */
+
+#previews .file-row.dz-success .start,
+#previews .file-row.dz-success .cancel {
+    display: none;
+}
+#previews .file-row.dz-success .delete {
+    display: block;
+}
+
+
+div.dropName{
+    max-width: 416px;
+    overflow: auto;
+}
+
+div.dropBar{
+    width: 150px;
+}
+
+textArea.vertic{
+    resize:vertical;
+}
+
+
+
+#resultat table {
+border:3px solid #6495ed;
+border-collapse:collapse;
+width:90%;
+margin:auto;
+}
+
+#resultat tbody {
+background-color:#FFFFFF;
+border:1px solid #6495ed;
+}
+#resultat th {
+font-family:monospace;
+border:1px dotted #6495ed;
+padding:5px;
+background-color:#EFF6FF;
+width:25%;
+}
+#resultat td {
+font-family:sans-serif;
+font-size:100%;
+border:1px solid #6495ed;
+padding:5px;
+text-align:left;
+}
+#resultat caption {
+font-family:sans-serif;
+}
+
+button
+{
+     color: #1570a6;
+}
+
+
+input[type="button"], input[type="button"]:focus, input[type="button"]:active,  
+button, button:focus, button:active {
+    /* Remove all decorations to look like normal text */
+    color: #1570a6;
+    background: none;
+    border: none;
+    
+    display: inline;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    outline-offset: 0;
+    /* Additional styles to look like a link */
+    color: #1570a6;
+    cursor: pointer;
+}
+/* Remove extra space inside buttons in Firefox */
+input[type="button"]::-moz-focus-inner,
+button::-moz-focus-inner {
+    border: none;
+    padding: 0;
+}
+
+
+
+
+.formUpdatePass td {
+ padding-right: 20px;
+ padding-bottom: 5px;
+}
+
+.center
+{
+    
+    
+}
+
+
